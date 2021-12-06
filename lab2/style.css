@@ -1,0 +1,72 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-width: 1000px;
+}
+
+body {
+    font-family: 'Ubuntu', 'Courier New', Courier, sans-serif;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.page_header_title {
+    text-align: center;
+}
+
+.page_content {
+    height: auto;
+    padding: 20px;
+}
+
+.page_content_encryption {
+    border: 1px solid rgba(6, 55, 189, 0.685);
+    height: 200px;
+    width: 600px;
+    margin:0 180px;
+    text-align: left;
+}
+
+.encryption_input {
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: 10px;
+    width: 70%;
+    height: 30%;
+    font-size: 16px;
+}
+
+.page_btn {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    background-color: rgba(19, 91, 224, 0.3);
+    border-radius: 20px;
+}
+
+button:focus {
+    background-color: rgba(26, 143, 221, 0.5);
+}
+
+.page_content_decipher {
+    border: 1px dashed #000;
+    width: 600px;
+    height: auto;
+    margin: 20px 180px;
+}
+.decipher_output {
+    word-wrap: break-word;
+}
+.decipher_output p {
+    margin: 0;
+    text-align: left;
+    font-size: 16px;
+    padding: 10px;
+}
